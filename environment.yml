@@ -1,0 +1,24 @@
+name: cvcs-fashion
+channels:
+  - defaults
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - numpy
+  - scipy
+  - scikit-image
+  - transformers
+  - chardet
+  - matplotlib
+  - opencv
+  - albumentations
+  - wandb
+  - pip:
+    - opencv-python
+    - open-clip-torch==2.20.0
+    - pillow
