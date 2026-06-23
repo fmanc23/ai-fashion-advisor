@@ -48,7 +48,7 @@ The pipeline (see [`main.py`](main.py)) runs end-to-end:
 
 ### Pre-trained weights
 Download the [pre-trained weights](https://github.com/aimagelab/open-fashion-clip/releases/download/open-fashion-clip/finetuned_clip.pt)
-and place the file inside `./src/open_fashion_clip/`.
+and place the file inside `./src/features_extractor/open_clip/`.
 
 > Note: model weights (`*.pt`) and the dataset are **not** tracked in this
 > repository and must be downloaded separately.
@@ -102,7 +102,7 @@ La pipeline (vedi [`main.py`](main.py)) esegue, in sequenza:
 
 ### Pesi pre-addestrati
 Scaricare i [pesi pre-addestrati](https://github.com/aimagelab/open-fashion-clip/releases/download/open-fashion-clip/finetuned_clip.pt)
-e inserire il file all'interno della cartella `./src/open_fashion_clip/`.
+e inserire il file all'interno della cartella `./src/features_extractor/open_clip/`.
 
 > Nota: i pesi dei modelli (`*.pt`) e il dataset **non** sono inclusi nel
 > repository e vanno scaricati a parte.
